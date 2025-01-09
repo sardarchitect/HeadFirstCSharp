@@ -1,0 +1,14 @@
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\bin\Debug\net9.0\MyFirstConsoleApp.exe
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\bin\Debug\net9.0\MyFirstConsoleApp.deps.json
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\bin\Debug\net9.0\MyFirstConsoleApp.runtimeconfig.json
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\bin\Debug\net9.0\MyFirstConsoleApp.dll
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\bin\Debug\net9.0\MyFirstConsoleApp.pdb
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.AssemblyInfoInputs.cache
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.AssemblyInfo.cs
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.csproj.CoreCompileInputs.cache
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.dll
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\refint\MyFirstConsoleApp.dll
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.pdb
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.genruntimeconfig.cache
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\ref\MyFirstConsoleApp.dll

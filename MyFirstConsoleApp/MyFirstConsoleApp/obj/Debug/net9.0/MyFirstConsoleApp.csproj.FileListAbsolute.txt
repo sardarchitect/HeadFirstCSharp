@@ -12,3 +12,4 @@ D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\r
 D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.pdb
 D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.genruntimeconfig.cache
 D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\ref\MyFirstConsoleApp.dll
+D:\Source\HeadFirstCSharp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net9.0\MyFirstConsoleApp.sourcelink.json

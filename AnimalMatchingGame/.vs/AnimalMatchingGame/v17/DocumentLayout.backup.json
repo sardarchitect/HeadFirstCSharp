@@ -13,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{8B0D1A10-1E84-4BC5-B754-ECA9E0976392}|AnimalMatchingGame\\AnimalMatchingGame.csproj|d:\\source\\headfirstcsharp\\animalmatchinggame\\animalmatchinggame\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8B0D1A10-1E84-4BC5-B754-ECA9E0976392}|AnimalMatchingGame\\AnimalMatchingGame.csproj|solutionrelative:animalmatchinggame\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0D1A10-1E84-4BC5-B754-ECA9E0976392}|AnimalMatchingGame\\AnimalMatchingGame.csproj|d:\\source\\headfirstcsharp\\animalmatchinggame\\animalmatchinggame\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8B0D1A10-1E84-4BC5-B754-ECA9E0976392}|AnimalMatchingGame\\AnimalMatchingGame.csproj|solutionrelative:animalmatchinggame\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0D1A10-1E84-4BC5-B754-ECA9E0976392}|AnimalMatchingGame\\AnimalMatchingGame.csproj|d:\\source\\headfirstcsharp\\animalmatchinggame\\animalmatchinggame\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0D1A10-1E84-4BC5-B754-ECA9E0976392}|AnimalMatchingGame\\AnimalMatchingGame.csproj|solutionrelative:animalmatchinggame\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "AnimalMatchingGame\\MainPage.xaml.cs",
-              "ToolTip": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\MainPage.xaml.cs",
-              "RelativeToolTip": "AnimalMatchingGame\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T22:10:36.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\MainPage.xaml",
-              "RelativeDocumentMoniker": "AnimalMatchingGame\\MainPage.xaml",
-              "ToolTip": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\MainPage.xaml",
-              "RelativeToolTip": "AnimalMatchingGame\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-09T22:05:12.07Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -60,7 +42,59 @@
               "RelativeToolTip": "AnimalMatchingGame\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-09T22:11:58.315Z",
+              "WhenOpened": "2025-01-09T23:23:25.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "AnimalMatchingGame\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\MainPage.xaml.cs",
+              "RelativeToolTip": "AnimalMatchingGame\\MainPage.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T23:23:14.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\MainPage.xaml",
+              "RelativeDocumentMoniker": "AnimalMatchingGame\\MainPage.xaml",
+              "ToolTip": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\MainPage.xaml",
+              "RelativeToolTip": "AnimalMatchingGame\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-09T23:23:31.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\App.xaml",
+              "RelativeDocumentMoniker": "AnimalMatchingGame\\App.xaml",
+              "ToolTip": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\App.xaml",
+              "RelativeToolTip": "AnimalMatchingGame\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-09T23:23:24.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "AnimalMatchingGame\\MauiProgram.cs",
+              "ToolTip": "D:\\Source\\HeadFirstCSharp\\AnimalMatchingGame\\AnimalMatchingGame\\MauiProgram.cs",
+              "RelativeToolTip": "AnimalMatchingGame\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T23:23:13.931Z",
               "EditorCaption": ""
             }
           ]

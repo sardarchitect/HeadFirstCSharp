@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mauiCard="clr-namespace:MAUICard"
+             x:Class="TwoDecks.MainPage">
+    
+    <ContentPage.Resources>
+        <mauiCard:Deck x:Key="LeftDeck"/>
+        <mauiCard:Deck x:Key="RightDeck"/>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Deck 1 -->
+        <CollectionView x:Name="LeftCards" ItemsSource="{StaticResource LeftDeck}" 
+                        Grid.ColumnSpan="2" Margin="5" SelectionMode="Single" 
+                        BackgroundColor="Black"/>
+
+        <Label BindingContext="{StaticResource LeftDeck}" Grid.Row="1" 
+               Text="{Binding Count, StringFormat='{0} cards in the deck'}" 
+               FontSize="Small" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Button Grid.Row="2" Text="Shuffle" Clicked="ShuffleLeftDeck_Clicked" Margin="5"/>
+        <Button Grid.Row="3" Text="Reset" Clicked="ResetLeftDeck_Clicked" Margin="5"/>
+
+        <Button Grid.Column="1" Grid.Row="1" Text="Move Selected Card" Clicked="MoveLeftDeck_Clicked" Margin="5"/>
+        <Button Grid.Column="1" Grid.Row="2" Text="Sort" Clicked="SortLeftDeck_Clicked" Margin="5"/>
+        <Button Grid.Column="1" Grid.Row="3" Text="Clear" Clicked="ClearLeftDeck_Clicked" Margin="5"/>
+
+        <!-- Deck 2 -->
+        <CollectionView x:Name="RightCards" ItemsSource="{StaticResource RightDeck}"  
+                        Grid.Column="2" Grid.ColumnSpan="2" Margin="5" SelectionMode="Single"
+                        BackgroundColor="Black"/>
+
+        <Label BindingContext="{StaticResource RightDeck}" Grid.Row="1" Grid.Column="2"
+               Text="{Binding Count, StringFormat='{0} cards in the deck'}" 
+               FontSize="Small" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Button Grid.Column="2" Grid.Row="2" Text="Shuffle" Clicked="ShuffleRightDeck_Clicked" Margin="5"/>
+        <Button Grid.Column="2" Grid.Row="3" Text="Reset" Clicked="ResetRightDeck_Clicked" Margin="5"/>
+
+        <Button Grid.Column="3" Grid.Row="1" Text="Move Selected Card" Clicked="MoveRightDeck_Clicked" Margin="5"/>
+        <Button Grid.Column="3" Grid.Row="2" Text="Sort" Clicked="SortRightDeck_Clicked" Margin="5"/>
+        <Button Grid.Column="3" Grid.Row="3" Text="Clear" Clicked="ClearRightDeck_Clicked" Margin="5"/>
+
+    </Grid>
+</ContentPage>

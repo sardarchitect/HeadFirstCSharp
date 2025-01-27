@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BeehiveManagementSystem.MainPage">
+    <ScrollView>
+        <Grid Margin="20" ColumnSpacing="20" MinimumHeightRequest="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+
+            <Label Text="Job Assignments" FontSize="Large" Grid.Column="0" Grid.Row="0"/>
+
+            <Border Grid.Column="0" Grid.Row="1" Padding="10" Margin="0,0,0,20">
+                <VerticalStackLayout>
+
+                    <Label Text="Bee Jobs" FontSize="Medium"/>
+                    <Picker x:Name="JobPicker" FontSize="Medium"
+                            Margin="0,0,0,20" SemanticProperties.Hint = "Picks bee job."/>
+                    <Button x:Name="AssignJobButton" FontSize="Medium" Text="Assign this job to a bee" 
+                            SemanticProperties.Hint="Assigns picked bee job." Clicked="AssignJobButton_Clicked"
+                            IsEnabled="{Binding CanAssignWorkers}"/>
+
+                </VerticalStackLayout>
+            </Border>
+
+            <Button x:Name="WorkShiftButton" Text="Work the next shift" FontSize="Large"
+                    Grid.Column="0" Grid.Row="2" SemanticProperties.Hint="Starts the next shift." Clicked="WorkShiftButton_Clicked"
+                    IsVisible="{Binding HiveIsRunning}"/>
+
+            <Button x:Name="OutOfHoneyButton" FontSize="Large" Text="The hive is out of honey"
+                    Grid.Column="0" Grid.Row="2" BackgroundColor="Red"  
+                    SemanticProperties.Hint="Warns beehive is out of honey." Clicked="OutOfHoneyButton_Clicked"
+                    IsVisible="{Binding OutOfHoney}"/>
+
+            <Label Text="Queen's Report" FontSize="Large"
+                   Grid.Column="1" Grid.Row="0"/>
+
+            <Label x:Name="StatusReport" Text="{Binding StatusReport}" BackgroundColor="Black" TextColor="Yellow" Padding="10"
+                Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" VerticalOptions="FillAndExpand"/>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

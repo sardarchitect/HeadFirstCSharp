@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIDamageCalculator.MainPage">
+
+    <ScrollView>
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Flaming" 
+                   Grid.Row="0" Grid.Column="0" 
+                   FontSize="Medium" HorizontalOptions="End" VerticalOptions="Center"/>
+            <CheckBox x:Name="Flaming" 
+                      Grid.Row="0" Grid.Column="1" Margin="0,20,0,0" 
+                      HorizontalOptions="Start" VerticalOptions="Center" 
+                      CheckedChanged="Flaming_CheckedChanged"/>
+
+            <Label Text="Magic" 
+                   Grid.Row="0" Grid.Column="2" 
+                   FontSize="Medium" HorizontalOptions="End" VerticalOptions="Center"/>
+            <CheckBox x:Name="Magic" 
+                      Grid.Row="0" Grid.Column="3" 
+                      HorizontalOptions="Start" VerticalOptions="Center" Margin="0,20,0,0" 
+                      CheckedChanged="Magic_CheckedChanged"/>
+
+            <Button Text="Roll for Damage" 
+                    Grid.Row="1" Grid.ColumnSpan="4" 
+                    BorderWidth="2" BorderColor="Black" FontSize="Medium"
+                    Clicked="Button_Clicked"/>
+            <Label x:Name="Damage" 
+                   Grid.Row="2" Grid.ColumnSpan="4" Margin="0,20,0,0"
+                   BackgroundColor="Black" TextColor="White" FontSize="Large"
+                   VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

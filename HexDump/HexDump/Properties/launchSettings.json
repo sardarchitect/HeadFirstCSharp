@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HexDump": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\sarda\\OneDrive\\Desktop\\dem.txt"
+    }
+  }
+}

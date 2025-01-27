@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploringEnumerables", "ExploringEnumerables\ExploringEnumerables.csproj", "{8C7D6CF2-B84B-437F-A127-573A2E84F15D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploringYield", "ExploringYield\ExploringYield.csproj", "{7CA867B3-5038-4703-8FE7-181759162102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterSportEnumerator", "BetterSportEnumerator\BetterSportEnumerator.csproj", "{D0033406-B7E9-48BD-B885-384FFB9D01F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowersOfTwo", "PowersOfTwo\PowersOfTwo.csproj", "{FA1272E3-AA0B-47CE-B332-1D931E90BB8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C7D6CF2-B84B-437F-A127-573A2E84F15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7D6CF2-B84B-437F-A127-573A2E84F15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7D6CF2-B84B-437F-A127-573A2E84F15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7D6CF2-B84B-437F-A127-573A2E84F15D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA867B3-5038-4703-8FE7-181759162102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA867B3-5038-4703-8FE7-181759162102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA867B3-5038-4703-8FE7-181759162102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA867B3-5038-4703-8FE7-181759162102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0033406-B7E9-48BD-B885-384FFB9D01F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0033406-B7E9-48BD-B885-384FFB9D01F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0033406-B7E9-48BD-B885-384FFB9D01F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0033406-B7E9-48BD-B885-384FFB9D01F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1272E3-AA0B-47CE-B332-1D931E90BB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1272E3-AA0B-47CE-B332-1D931E90BB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1272E3-AA0B-47CE-B332-1D931E90BB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1272E3-AA0B-47CE-B332-1D931E90BB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
